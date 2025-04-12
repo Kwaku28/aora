@@ -11,3 +11,11 @@ interface User {
   avatar: string;
 }
 
+interface Video {
+  $id: string;
+  title: string;
+  prompt: string;
+  thumbnail: string;
+  video: string;
+  creator: User;
+}
